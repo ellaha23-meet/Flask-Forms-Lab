@@ -10,7 +10,14 @@
 </head>
 <body>
 
+<ul id="myUL">
 
+  {% if friend in facebook_friends %}
+                  <li>True</li>
+  {%else%}
+  	<li>False</li>
+  {% endif %}
+</ul>
 
 </body>
 </html>
